@@ -1,4 +1,4 @@
-# Sample(s) sujected to variant calling. Expected format BAM
+# Sample(s) sujected to variant calling. Expected format BAM.
 sample: "A,B"
 
 params:
@@ -8,13 +8,13 @@ params:
 mode: "demuxlet"
 
 ref:
-    fa: "/sonas-hs/bsr/hpc/data/yuan/JPreall/Projects/Sonam/genome/refdata-cellranger-GRCh38-1.2.0.genome.fa"
+    fa: "genome/hg38.genome.fa"
 
 known:
-    dbsnp: "/sonas-hs/bsr/hpc/data/yuan/JPreall/Projects/Sonam/genome/dbsnp_138.hg38.nmconv.vcf.gz"
-    snp1k: "/sonas-hs/bsr/hpc/data/yuan/JPreall/Projects/Sonam/genome/1000G_phase1.snps.high_confidence.hg38.nmconv.vcf.gz"
-    knowindel: "/sonas-hs/bsr/hpc/data/yuan/JPreall/Projects/Sonam/genome/Homo_sapiens_assembly38.known_indels.nmconv.vcf.gz"
-    indel1k: "/sonas-hs/bsr/hpc/data/yuan/JPreall/Projects/Sonam/genome/Mills_and_1000G_gold_standard.indels.hg38.nmconv.vcf.gz"
+    dbsnp: "genome/dbsnp_138.hg38.nmconv.vcf.gz"
+    snp1k: "genome/1000G_phase1.snps.high_confidence.hg38.nmconv.vcf.gz"
+    knowindel: "genome/Homo_sapiens_assembly38.known_indels.nmconv.vcf.gz"
+    indel1k: "genome/Mills_and_1000G_gold_standard.indels.hg38.nmconv.vcf.gz"
 
 vcf_filter:
     FS: 30.0
