@@ -1,10 +1,10 @@
-# Sample(s) sujected to variant calling. Expected format BAM.
+# Sample(s) sujected to variant calling. Expected format BAM. 
 sample: "A,B"
 
 params:
     threads: 8
 
-# If mode is not 'demuxlet', then only gatk variant calling performed
+# If mode is not 'demuxlet', then only gatk variant calling performed. 
 mode: "demuxlet"
 
 ref:
