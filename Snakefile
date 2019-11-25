@@ -1,11 +1,7 @@
-# This workflow performs GATK haplotypecaller on RNASeq data
-# based on GATK best practice (for RNASeq), 
-# followed by demuxlet on a scRNASeq library composing multiple
-# samples to be de-mutiplexed. 
 #
 # Input/output/parameters should be specified in config.yaml
 #
-#
+
 
 from snakemake.utils import validate, min_version
 from snakemake.shell import shell
