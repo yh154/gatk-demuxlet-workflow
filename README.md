@@ -3,5 +3,5 @@ A workflow performs GATK variant calling on one or multiple RNASeq bam(s) based 
 
 If 'mode' == 'demuxlet', demuxlet (Kang. Nature 2017) will be used to perform de-multiplexing on a multiplexed single cell RNASeq BAM using VCF from last step.
 
-![alt text](https://github.com/yh154/workflow-1/blob/master/workflow_dag.png)
+![alt text](https://raw.githubusercontent.com/yh154/gatk-demuxlet-workflow/master/workflow.png)
 
